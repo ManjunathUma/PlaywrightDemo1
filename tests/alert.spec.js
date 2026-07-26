@@ -5,4 +5,7 @@ test("Alert",async function({page}){
      await page.goto("https://the-internet.herokuapp.com/javascript_alerts")
 
      await page.locator("//button[text()='Click for JS Alert']").click()
+     console.log("Practice PR 1")
+
+     //hello
 })
