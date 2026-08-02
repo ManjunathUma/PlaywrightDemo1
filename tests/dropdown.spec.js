@@ -7,4 +7,6 @@ test("Select values from Dropdown", async function({page}){
     await page.locator("#state").selectOption({label:"Karnataka"})
 
     await page.waitForTimeout(10000)
+
+    console.log("Practice PR2")
 })

@@ -9,4 +9,6 @@ test("Verify file upload",async ({page})=>{
     await page.locator("#file-submit").click()
 
     expect(await page.locator("//h3")).toHaveText("File Uploaded!")
+
+    console.log("Practice PR3")
 })
