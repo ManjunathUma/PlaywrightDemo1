@@ -9,7 +9,7 @@ test.skip("My second test", async function ({page}) {
 })
 
 test("My Third test", async function ({page}) {
-    expect("Manjunath").toContain("Man")
+    expect("Manjunath").toContain("uma")
 })
 
-//Sample 1
+//Sample 10
