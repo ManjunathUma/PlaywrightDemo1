@@ -5,4 +5,6 @@ test("Verify Application Title", async function({page}){
     const url=await page.url()
     console.log("Title is "+url)
     await expect(page).toHaveTitle("Google")
+
+    //This is a sample in login.spec file
 })
