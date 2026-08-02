@@ -12,4 +12,10 @@ test("My Third test", async function ({page}) {
     expect("Manjunath").toContain("Man")
 })
 
-//Sample 1
+test("My Fourth test", async function ({page}) {
+    expect("Manjunath").toContain("Man")
+})
+
+test("My fifth test", async function ({page}) {
+    expect("Manjunath").toContain("Man")
+})
