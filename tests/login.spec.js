@@ -25,3 +25,7 @@ test("Valid Login",async function({page}){
 test("Demo sample mehtof", async function (params) {
     await page.goto("www.google.com")
 })
+
+test("Demo sample mehtof", async function (params) {
+    await page.goto("www.google.com")
+})
