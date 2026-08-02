@@ -26,6 +26,13 @@ test("Demo sample mehtof", async function (params) {
     await page.goto("www.google.com")
 })
 
+<<<<<<< Updated upstream
 test("Demo sample mehtof", async function (params) {
     await page.goto("www.google.com")
 })
+=======
+
+test("Demo2 sample mehtof", async function (params) {
+    await page.goto("www.facebook.com")
+})
+>>>>>>> Stashed changes
